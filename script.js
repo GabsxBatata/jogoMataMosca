@@ -46,7 +46,7 @@ function posicaoRandom() {
         if (vidas > 5) {
             window.location.href = 'fim_de_jogo.html'
         }else{
-        document.getElementById('v'+vidas).src = 'img/coracao_vazio.png'
+        document.getElementById('v'+vidas).src = 'coracao_vazio.png'
         vidas++
         }
     }
@@ -63,7 +63,7 @@ function posicaoRandom() {
 
     
     let mosca = document.createElement('img') //criar elemento html
-    mosca.src = "img/mosca.png" //manipula o elemento criado, passando o url da imagem mosca.png
+    mosca.src = "mosca.png" //manipula o elemento criado, passando o url da imagem mosca.png
     mosca.className = `${tamanhoAleatorio()} ${ladoRandom()}` //insere o nome da classe para os possiveis casos informados nas duas funções
     mosca.style.left = posX + 'px' //manipula o style left, passando a posição da largura
     mosca.style.top = posY + 'px' //manipula o style top, passando a posição da altura
