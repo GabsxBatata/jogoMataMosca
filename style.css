@@ -3,9 +3,9 @@ html{
 }
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url(bg.png);
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100%;
 }
 
 .mosca1 {
