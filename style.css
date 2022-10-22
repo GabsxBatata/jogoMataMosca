@@ -73,11 +73,13 @@ width: 50px;
             height: 50%;
         }
         .painel {
-        position: absolute;
-        width: 190px;
-        padding: 20px;
-        left: -10px;
-        bottom: -530px;
+            display: grid;
+            position: fixed;
+            width: 190px;
+            padding: 20px;
+            padding-right: 5px;
+            left: -10px;
+            bottom: 5px;
         }
 
         .vidas {

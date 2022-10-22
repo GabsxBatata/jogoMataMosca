@@ -18,7 +18,7 @@ if (nivel === 'normal') {
 
 //Função criada para passar os valores de largura e altura da janela
 function ajustarTamanhoBrowser() {
-    altura = window.innerHeight //altura recebe o valor da altura da pág
+    altura = window.innerHeight; //altura recebe o valor da altura da pág
     largura = window.innerWidth; //largura recebe o valor da largura da pág
     console.log(`Altura: ${altura} | Largura ${largura}`) //informa no console a altura e largura
 }
@@ -53,8 +53,8 @@ function posicaoRandom() {
     
 
 
-    let posX = Math.floor(Math.random() * largura) - 100 //variável posX recebe a largura random da pág web
-    let posY = Math.floor(Math.random() * altura) - 100 //variável posY recebe a altura random da pág web
+    let posX = Math.floor(Math.random() * largura) - 90 //variável posX recebe a largura random da pág web
+    let posY = Math.floor(Math.random() * altura) - 280 //variável posY recebe a altura random da pág web
 
     posX = posX < 0 ? 0 : posX //Caso a posX for menor que 0, recebe 0 e caso for false, recebe o seu proprio valor
     posY = posY < 0 ? 0 : posY //Caso a posY for menor que 0, recebe 0 e caso for false, recebe o seu proprio valor
