@@ -75,4 +75,24 @@ width: 50px;
             width: 50%;
             height: 50%;
         }
+                .painel {
+                    position: absolute;
+                    width: 190px;
+                    padding: 20px;
+                    left: -10px;
+                    bottom: -530px;
+                    border-top: solid 10px white;
+                    background-color: white;
+                    opacity: 0.7;
+                }
+        
+                .vidas {
+                    float: left;
+                }
+        
+                .tempo {
+                    float: left;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
 }

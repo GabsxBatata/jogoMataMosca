@@ -53,8 +53,8 @@ function posicaoRandom() {
     
 
 
-    let posX = Math.floor(Math.random() * largura) - 90 //variável posX recebe a largura random da pág web
-    let posY = Math.floor(Math.random() * altura) - 90 //variável posY recebe a altura random da pág web
+    let posX = Math.floor(Math.random() * largura) - 100 //variável posX recebe a largura random da pág web
+    let posY = Math.floor(Math.random() * altura) - 100 //variável posY recebe a altura random da pág web
 
     posX = posX < 0 ? 0 : posX //Caso a posX for menor que 0, recebe 0 e caso for false, recebe o seu proprio valor
     posY = posY < 0 ? 0 : posY //Caso a posY for menor que 0, recebe 0 e caso for false, recebe o seu proprio valor
