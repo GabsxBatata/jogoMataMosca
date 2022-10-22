@@ -1,18 +1,18 @@
 let altura = 0
 let largura = 0
 let vidas = 1
-let tempo = 15
+let tempo = 20
 let criarMoscaTempo = 1500
 
 let nivel = window.location.search
 nivel = nivel.replace('?', '')
 
-if (nivel === 'normal') {
-    let criarMoscaTempo = 1000
+if (nivel == 'normal') {
+    criarMoscaTempo = 1500
 } else if(nivel === 'dificil'){
-    let criarMoscaTempo = 750
-} else if (nivel === 'booba') {
-    let criarMoscaTempo = 1
+    criarMoscaTempo = 1000
+} else if (nivel == 'booba') {
+    criarMoscaTempo = 750
 }
 
 
@@ -43,7 +43,7 @@ function posicaoRandom() {
     //Remover mosca anterior (caso exista)
     if (document.getElementById('mosca')) {//verifica se o elemento com id 'mosca' existe, como ele não existe na primeira execução, o if ira seguir
         document.getElementById('mosca').remove() //Já na segunda verificação, o elemento já foi criado e ira cair na condição do if, assim removendo o elemento
-        if (vidas > 5) {
+        if (vidas > 3) {
             window.location.href = 'fim_de_jogo.html'
         }else{
         document.getElementById('v'+vidas).src = 'img/coracao_vazio.png'
