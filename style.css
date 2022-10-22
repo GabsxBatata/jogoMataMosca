@@ -1,9 +1,9 @@
 html{
-    cursor: url(/img/mata_mosca.png) 30 30, auto;
+    cursor: url(img/mata_mosca.png) 30 30, auto;
 }
 
 body{
-    background: rgb(70, 223, 70) url(/img/bg.png);
+    background: rgb(70, 223, 70) url(img/bg.png);
     background-repeat: no-repeat;
     background-size: 100vw;
     
