@@ -5,8 +5,8 @@ html{
 body{
     background: rgb(70, 223, 70) url(img/bg.png);
     background-repeat: no-repeat;
-    background-size: 100vw;
-    
+    background-size: cover;
+    background-size: 100vw 100vh;
 }
 
 .mosca1 {
@@ -56,4 +56,23 @@ width: 50px;
     float: left;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+            background: url(img/bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 1000px 1000px;
+            position: relative;
+            inset: 0;
+            top: 13rem;
+            left: 0;
+            right: 100px;
+        }
+        #tema img{
+            min-width: 200px;
+            width: 50%;
+            height: 50%;
+        }
 }
